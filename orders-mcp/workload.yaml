@@ -1,0 +1,9 @@
+apiVersion: openchoreo.dev/v1alpha1
+metadata:
+  name: orders-mcp
+endpoints:
+  - name: orders-mcp
+    visibility:
+      - external
+    port: 9090
+    type: HTTP
